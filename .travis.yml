@@ -3,7 +3,6 @@ language: php
 sudo: false
 
 php:
-  - 7.0
   - 7.1
   - 7.2
 
@@ -14,6 +13,9 @@ matrix:
 cache:
   directories:
     - $HOME/.composer/cache
+
+install:
+  - composer install
 
 script:
   - ./vendor/bin/phpspec run --format=dot
