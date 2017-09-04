@@ -1,5 +1,7 @@
 # PHP Visual Debt Checker
 
+[![Build Status](https://travis-ci.org/nclsHart/php-vd-checker.svg)](https://travis-ci.org/nclsHart/php-vd-checker.svg)
+
 ## Foreword
 
 What is visual debt? 
