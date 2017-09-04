@@ -1,0 +1,8 @@
+suites:
+    main_suite:
+        namespace: PhpVdChecker
+        psr4_prefix: PhpVdChecker
+
+extensions:
+    LeanPHP\PhpSpec\CodeCoverage\CodeCoverageExtension:
+        output: var/coverage
